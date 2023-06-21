@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vipul - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(16, 16, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: lightcoral;
+        font-size: 1.03rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 138px 0;
+      }
+      .firstsection > div {
+        width: 35%;
+      }
+      .leftsection .buttons{
+        padding: 20px 0;
+      }
+      .leftsection {
+        font-size: 2.7rem;
+      }
+      .leftsection .btn{
+       padding: 5px;
+       background: #19254a;
+       color: white;
+       border: 2px solid white;
+       border-radius: 6px;
+       font-size: 20px;
+       cursor: pointer;
+      }
+      .rightsection img {
+        width: 50%;
+        margin: 20px 179px;
+      }
+      .purple {
+        color: rgb(180, 118, 238);
+      }
+      #element {
+        color: rgb(180, 118, 238);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background-color: #323ea7;
+        height: 1.02px;
+        margin: 40px 80px;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .text-grey {
+        color: gray;
+      }
+      .secondsection .box {
+        background: white;
+        width: 60vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 6vw;
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -5px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        color:gray ;
+        width: 150px;
+        font-size: 9px;
+    }
+    footer{
+      background-color: rgb(13, 11, 28);
+     
+    }
+    .footer{
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul{
+      list-style: none;
+    }
+    .footer > div{
+      width: 223px;
+    }
+    footer .footer-rights{
+      text-align: center;
+      color: grey;
+      padding: 12px 0;
+    }
+    @media screen and (max-width: 1000px) {
+     
+      .vertical-title , .vertical-desc{
+        left: 45px;
+      }
+      .box{
+        flex-direction: column;
+      }
+      .secondsection .vertical{
+        height: unset;
+      }
+      
+      .secondsection .box{
+        width: 45vw;
+      }
+      nav{
+        flex-direction: column;
+      }
+      .firstsection{
+        flex-direction: column-reverse;
+      }
+      .leftsection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .rightsection{
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+      }
+      /* .rightsection img{
+        width:45vw;
+        margin-bottom: 73px;
+      } */
+      .image-top{
+        top: 122px;
+      }
+      body{
+        min-width: fit-content;
+      }
+      .secondsection{
+        height: 141vh;
+      }
+      .secondsection{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vipul's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div>Hi, my name is <span class="purple">vipul</span></div>
+          <div>and I'm a passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="https://www.linkedin.com/in/vipul-sharma-455374232/" target="_blank" alt="Linkedin"><button class="btn">Visit Linkedin</button></a>
+           <a href="https://github.com/vipul9045" target="_blank" alt="Github"><button class="btn">Visit Github</button></a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="vikkosh.png.jpg" alt="Vipul Sharma" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Skills</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="js.png" alt="Developer" />
+            <div class="vertical-title">
+               Java script (Intermediate)
+            </div>
+            <div class="vertical-desc">
+              JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="html logo.png" alt="Developer" />
+            <div class="vertical-title">
+                HTML (Intermediate)
+            </div>
+            <div class="vertical-desc">
+              HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="webdesigner.png" alt="Developer" />
+            <div class="vertical-title">
+               Web Designing
+            </div>
+            <div class="vertical-desc">
+              As a web designer, you are responsible for big-picture decisions, like the menus listed on the site, and smaller details, like which fonts, colors, and graphics to use. A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="java.png" alt="Developer" />
+            <div class="vertical-title">
+               Java (Intermediate)
+            </div>
+            <div class="vertical-desc">
+              Java is a widely-used programming language for coding web applications. It has been a popular choice among developers for over two decades, with millions of Java applications in use today. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="c.png" alt="Developer" />
+            <div class="vertical-title">
+                C language (Intermediate)
+            </div>
+            <div class="vertical-desc">
+              The C programming language is a procedural and general-purpose language that provides low-level access to system memory. A program written in C must be run through a C compiler to convert it into an executable that a computer can run.
+            </div>
+          </div>
+         </section>
+    </main>
+    <footer>
+      <div class="footer-rights">
+        copyright &#169; vipulportfolio.com || All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Coding Enthusiast", "Web Designer"],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>
